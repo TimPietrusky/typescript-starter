@@ -8,8 +8,8 @@
     "importHelpers": true,
     "isolatedModules": true,
     "lib": ["ES2022"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "preserve",
     "forceConsistentCasingInFileNames": true,
@@ -19,6 +19,7 @@
     "strict": false,
     "target": "ES2022",
     "typeRoots": ["./node_modules/@types", "./types"],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
